@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eef4f0;
+  color: #1f2d27;
+  line-height: 1.7;
+}
+
+/* Forest Top Banner */
+.canopy-header {
+  background-color: #1b4332;
+  color: #ffffff;
+  padding: 28px 40px 20px 40px;
+  border-bottom: 5px solid #74c69d;
+}
+
+.canopy-header h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 32px;
+  letter-spacing: 1px;
+  color: #d8f3dc;
+}
+
+.canopy-header p {
+  font-size: 13px;
+  color: #95d5b2;
+  margin-top: 4px;
+  letter-spacing: 0.8px;
+}
+
+/* Leaf-Pill Horizontal Menu */
+.canopy-nav {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid #2d6a4f;
+}
+
+.canopy-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 6px 14px;
+  margin: 3px 4px 3px 0;
+  background-color: #2d6a4f;
+  border-radius: 18px 4px 18px 4px;
+  display: inline-block;
+}
+
+.canopy-nav a:hover {
+  background-color: #95d5b2;
+  color: #1b4332;
+}
+
+/* Main Field Journal Container */
+.journal-wrap {
+  max-width: 980px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* 3-Badge Eco-Fact Ribbon */
+.eco-ribbon {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.eco-badge {
+  flex: 1;
+  min-width: 210px;
+  background-color: #ffffff;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border-left: 5px solid #40916c;
+  box-shadow: 0 3px 10px rgba(27, 67, 50, 0.07);
+}
+
+.eco-badge strong {
+  display: block;
+  font-size: 20px;
+  color: #1b4332;
+}
+
+.eco-badge span {
+  font-size: 12px;
+  color: #52796f;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Botanical Content Card */
+.field-card {
+  background-color: #ffffff;
+  padding: 34px;
+  border-radius: 12px;
+  border: 1px solid #cde0d5;
+  box-shadow: 0 6px 20px rgba(27, 67, 50, 0.06);
+}
+
+.field-card h2 {
+  font-family: Georgia, serif;
+  color: #1b4332;
+  font-size: 24px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #d8f3dc;
+}
+
+.field-card h3 {
+  color: #5c4033;
+  font-size: 18px;
+  margin: 20px 0 8px 0;
+}
+
+.bark-note {
+  background-color: #f6efe9;
+  border-left: 4px solid #7f5539;
+  padding: 15px 18px;
+  border-radius: 6px;
+  margin: 18px 0;
+  color: #4a3525;
+  font-size: 14px;
+}
+
+ul, ol {
+  margin: 12px 0 14px 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Tree Species Comparison Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+
+th, td {
+  padding: 13px;
+  text-align: left;
+  border-bottom: 1px solid #d8f3dc;
+}
+
+th {
+  background-color: #1b4332;
+  color: #d8f3dc;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: #f4faf6;
+}
+
+/* Tree Plantation Pledge Form */
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 700;
+  color: #1b4332;
+  font-size: 13px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #b7d4c4;
+  border-radius: 6px;
+  background-color: #f8fbf9;
+}
+
+button {
+  margin-top: 22px;
+  padding: 12px 26px;
+  background-color: #2d6a4f;
+  color: #ffffff;
+  border: none;
+  border-radius: 18px 4px 18px 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b4332;
+}
+
+footer {
+  background-color: #1b4332;
+  color: #95d5b2;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 12px;
+}
